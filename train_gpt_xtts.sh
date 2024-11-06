@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0 python train_gpt_xtts.py \
+--output_path=checkpoints/ \
+--train_csv_path=dataset/metadata.csv \
+--eval_csv_path=dataset/metadata_val.csv \
+--language="mos" \
+--num_epochs=30 \
+--batch_size=8 \
+--grad_acumm=1 \
+--max_text_length=1024 \
+--max_audio_length=511990 \
+--weight_decay=1e-2 \
+--lr=5e-6 \
+--save_step=1000

@@ -1,0 +1,11 @@
+.venv/
+hub/
+*.pth
+__pycache__/
+checkpoints/
+wandb/
+*.wav
+.env
+env
+Readme.md
+deploy_folder/
