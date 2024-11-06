@@ -59,4 +59,3 @@ tokenizers==0.19.1
 datasets
 #dotenv
 wandb
-spacy
